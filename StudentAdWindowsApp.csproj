@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<ApplicationIcon>Assets\appicon.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Assets\appicon.ico" />
+	</ItemGroup>
+
+
+
+
+	<ItemGroup>
+		<PackageReference Include="H.NotifyIcon.Wpf" Version="2.4.1" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+		<PackageReference Include="System.DirectoryServices.AccountManagement" Version="8.0.0" />
+	</ItemGroup>
+
+
+
+
+	<ItemGroup>
+	  <Resource Include="assets\appicon.ico" />
+	</ItemGroup>
+
+
+
+
+</Project>
