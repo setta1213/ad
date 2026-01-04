@@ -9,7 +9,7 @@ config {
   "ApiPort": 5000
 }
 
-0.0.0.0/api/main/create,put,get,delete
+0.0.0.0/api/main/create,put,get,delete,reset-password
 listapi /api/main/
 {(post)/create
 [
